@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5CBF1AA03CA12B642B2530AF /* Pods_taskapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46F286FD898EF6825D91D40 /* Pods_taskapp.framework */; };
+		A184DC1C22D83E4300D2B6CC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A184DC1B22D83E4300D2B6CC /* Task.swift */; };
 		A1A5E87322D77F9B00297421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5E87222D77F9B00297421 /* AppDelegate.swift */; };
 		A1A5E87522D77F9B00297421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5E87422D77F9B00297421 /* ViewController.swift */; };
 		A1A5E87822D77F9B00297421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A5E87622D77F9B00297421 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		024560AC8CEEB8B3491D2BA5 /* Pods-taskapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-taskapp/Pods-taskapp.release.xcconfig"; sourceTree = "<group>"; };
 		575088DC23BB99334B9BCBA5 /* Pods-taskapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taskapp/Pods-taskapp.debug.xcconfig"; sourceTree = "<group>"; };
+		A184DC1B22D83E4300D2B6CC /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		A1A5E86F22D77F9B00297421 /* taskapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A5E87222D77F9B00297421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1A5E87422D77F9B00297421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				A1A5E87222D77F9B00297421 /* AppDelegate.swift */,
 				A1A5E87422D77F9B00297421 /* ViewController.swift */,
 				A1A5E88422D786A600297421 /* InputViewController.swift */,
+				A184DC1B22D83E4300D2B6CC /* Task.swift */,
 				A1A5E87622D77F9B00297421 /* Main.storyboard */,
 				A1A5E87922D77F9D00297421 /* Assets.xcassets */,
 				A1A5E87B22D77F9D00297421 /* LaunchScreen.storyboard */,
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A184DC1C22D83E4300D2B6CC /* Task.swift in Sources */,
 				A1A5E88522D786A600297421 /* InputViewController.swift in Sources */,
 				A1A5E87522D77F9B00297421 /* ViewController.swift in Sources */,
 				A1A5E87322D77F9B00297421 /* AppDelegate.swift in Sources */,
